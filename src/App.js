@@ -1,4 +1,5 @@
 import React from "react";
+import Description from "./components/Description";
 
 class App extends React.Component {
    state = {
@@ -20,7 +21,7 @@ class App extends React.Component {
       if (this.state.loading) {
          return <h1>{this.state.loadingMsg}</h1>;
       }
-      return <div>This worked</div>;
+      return <Description product={this.state.product} />;
    }
 }
 
