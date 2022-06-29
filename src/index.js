@@ -3,9 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import ProductDesc from "./App";
 import reportWebVitals from "./reportWebVitals";
-import ProductDesc from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("product-description"));
 root.render(
    <React.StrictMode>
       <ProductDesc />

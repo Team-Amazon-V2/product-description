@@ -16,24 +16,25 @@ code {
    font-family: "Lato", sans-serif;
 }
 
-.product-desc {
+.product-descDC {
    width: auto;
    min-width: 167px;
+   max-width: 350px;
    margin-left: 50%;
    margin-right: 300px;
    height: auto;
 }
 
-#name {
+#nameDC {
    font-weight: 400;
    font-size: 30px;
 }
 
-#payments {
+#paymentsDC {
    padding-bottom: 20px;
 }
 
-.options {
+.optionsDC {
    display: grid;
 }
 a {
@@ -41,21 +42,21 @@ a {
    color: steelblue;
 }
 
-#pay {
+#payDC {
    font-weight: bold;
    color: steelblue;
    text-decoration: none;
    letter-spacing: 0.5px;
 }
 
-#mopay {
+#mopayDC {
    font-weight: bold;
    color: rgb(194, 2, 2);
    text-decoration: none;
    letter-spacing: 0.5px;
 }
 
-.optionsBtn {
+.optionsBtnDC {
    width: min-content;
    font-size: 15px;
    padding: 5px 10px;
@@ -64,17 +65,17 @@ a {
    border: solid lightslategray 1px;
 }
 
-.optionsBtn:active {
+.optionsBtnDC:active {
    border: solid orange 1px;
    font-weight: bold;
    background-color: rgb(250, 246, 237);
    box-shadow: orange 0px 0px 4px;
 }
 
-#price {
+#priceDC {
    font-size: 28px;
 }
 
-#about {
+#aboutDC {
    font-weight: bold;
 }

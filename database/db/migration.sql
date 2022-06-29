@@ -8,6 +8,8 @@ CREATE TABLE product(
     id SERIAL UNIQUE PRIMARY KEY,
     asin_id VARCHAR,
     product_name TEXT,
+    rating NUMERIC,
+    reviews INTEGER,
     category TEXT,
     price NUMERIC,
     options TEXT ARRAY,
