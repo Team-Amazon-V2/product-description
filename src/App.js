@@ -1,7 +1,7 @@
 import React from "react";
 import Description from "./components/Description";
 
-class App extends React.Component {
+class ProductDesc extends React.Component {
    state = {
       loading: true,
       product: null,
@@ -9,7 +9,7 @@ class App extends React.Component {
    };
 
    componentDidMount() {
-      fetch("http://localhost:3005/")
+      fetch("http://localhost:3505/")
          .then((res) => res.json())
          .then((data) => {
             console.log(data);
@@ -25,4 +25,4 @@ class App extends React.Component {
    }
 }
 
-export default App;
+export default ProductDesc;
