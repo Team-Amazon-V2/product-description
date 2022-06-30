@@ -19,7 +19,7 @@ code {
 .product-descDC {
    width: auto;
    min-width: 167px;
-   max-width: 350px;
+   max-width: 380px;
    margin-left: 50%;
    margin-right: 300px;
    height: auto;
@@ -27,11 +27,17 @@ code {
 
 #nameDC {
    font-weight: 400;
-   font-size: 30px;
+   font-size: 28px;
 }
 
 #paymentsDC {
    padding-bottom: 20px;
+}
+
+#reviewsDC {
+   text-decoration: none;
+   color: steelblue;
+   margin-left: 10px;
 }
 
 .optionsDC {
